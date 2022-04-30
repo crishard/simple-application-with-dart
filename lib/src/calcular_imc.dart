@@ -4,8 +4,9 @@ imc(){
   print("============Digite seu peso============");
   late String? inputPeso = stdin.readLineSync();
   late double peso = double.parse(inputPeso!);
-  
-  print("============Digite sua altura============");
+  if(peso != 0){
+    print("============Digite sua altura============");
+  }
   late String? inputAltura = stdin.readLineSync();
   late double altura = double.parse(inputAltura!);
 
